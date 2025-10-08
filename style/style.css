@@ -5,7 +5,7 @@
     font-family: "Lato", sans-serif;
 }
 #flower_header{
-    background-color:#8f4d5b;
+    background-color:rgba(229, 84, 115, 0.1);
     
 }
 .container{
@@ -50,4 +50,68 @@ button:hover{
 
 .content-image img{
     width: 100%;
+}
+
+
+/* main section */
+#featured-section{
+    margin-top: 150px;
+}
+
+#featured-text{
+    text-align: center;
+}
+
+#featured-text h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#featured-text p{
+    width: 35%;
+    font-size: 18px;
+    margin:20px auto;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.flower-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 24px;
+    
+}
+
+.flower{
+    text-align: center;
+    height: 335px;
+   
+}
+.flower p{
+     text-decoration: underline;
+}
+.flower img{
+    width: 100%;
+}
+
+.flower1{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0 0;
+    padding: 78px 78px 0 78px;
+    height: 100%;
+    margin-bottom: 32px;
+}
+.flower2{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0 0;
+    padding: 78px 78px 0 78px;
+    height: 100%;
+    margin-bottom: 32px;
+}
+.flower3{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0 0;
+    padding: 78px 78px 0 78px;
+    height: 100%;
+    margin-bottom: 32px;
 }
