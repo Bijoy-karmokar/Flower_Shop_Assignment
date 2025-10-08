@@ -1,162 +1,241 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
-#flower_header{
-    background-color:rgba(229, 84, 115, 0.1);
-    
+#flower_header {
+  background-color: rgba(229, 84, 115, 0.1);
 }
-.container{
-    width: 75%;
-    margin: 0 auto;
+.container {
+  width: 75%;
+  margin: 0 auto;
 }
-#flower_header .banner{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.content-text h1{
-    width:50%;
-    font-size: 40px;
-    font-weight: 800;
-}
-.content-text p{
-    font-size: 18px;
-    font-weight: 400;
-    margin: 32px 0;
+#flower_header .banner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-button{
-    background-color: #E55473;
-    padding: 20px 43px;
-    border-radius: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: all 1s;
+.content-text h1 {
+  width: 50%;
+  font-size: 40px;
+  font-weight: 800;
 }
-button:hover{
-    background-color:#e3375c;
+.content-text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0;
 }
 
-.banner .content-image{
-    width: 80%;
+button {
+  background-color: #e55473;
+  padding: 20px 43px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+}
+button:hover {
+  background-color: #e3375c;
 }
 
-.content-image img{
-    width: 100%;
+.banner .content-image {
+  width: 80%;
 }
 
+.content-image img {
+  width: 100%;
+}
 
 /* main section */
-#featured-section{
-    margin-top: 150px;
+#featured-section {
+  margin-top: 150px;
 }
 
-#featured-text{
-    text-align: center;
+#featured-text {
+  text-align: center;
 }
 
-#featured-text h3{
-    font-size: 40px;
-    font-weight: 800;
+#featured-text h3 {
+  font-size: 40px;
+  font-weight: 800;
 }
 
-#featured-text p{
-    width: 35%;
-    font-size: 18px;
-    margin:20px auto;
-    color: rgba(39, 39, 39, 0.6);
+#featured-text p {
+  width: 35%;
+  font-size: 18px;
+  margin: 20px auto;
+  color: rgba(39, 39, 39, 0.6);
 }
 
 .flower-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  gap: 24px;
+}
+
+.flower {
+  text-align: center;
+  height: 335px;
+  margin-bottom: 50px;
+}
+.flower p {
+  text-decoration: underline;
+}
+.flower img {
+  width: 100%;
+}
+
+.flower1 {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0 0;
+  padding: 78px 78px 0 78px;
+  height: 100%;
+  margin-bottom: 32px;
+}
+.flower2 {
+  background-color: rgba(5, 151, 160, 0.15);
+  border-radius: 300px 300px 0 0;
+  padding: 78px 78px 0 78px;
+  height: 100%;
+  margin-bottom: 32px;
+}
+.flower3 {
+  background-color: rgba(71, 125, 17, 0.15);
+  border-radius: 300px 300px 0 0;
+  padding: 78px 78px 0 78px;
+  height: 100%;
+  margin-bottom: 32px;
+}
+
+#delivery-flower {
+  width: 75%;
+  margin: 128px auto;
+  background-color: rgba(39, 39, 39, 0.05);
+}
+.flower-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 85px 175px;
+  text-align: center;
+}
+
+.flower-item p {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 10px;
+}
+
+#signUp {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.sign-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.sign-text p {
+  font-size: 18px;
+  width: 65%;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 24px 0 32px 0;
+}
+
+.sign-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+/* Instagram */
+
+#Instagram-container {
+  width: 75%;
+  margin: 128px auto;
+ 
+}
+.Instagram-text{
+    text-align: center;
+
+}
+.Instagram-text h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.Instagram-text p {
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 24px 0 32px 0;
+  
+}
+
+.Instagram-flower{
     display: flex;
-    justify-content: space-around;
-    align-items: end;
+    justify-items: center;
+    align-items: center;
     gap: 24px;
-    
+}
+.Instagram-flower img{
+    width: 25%;
 }
 
-.flower{
-    text-align: center;
-    height: 335px;
-    margin-bottom: 50px;
-   
-}
-.flower p{
-     text-decoration: underline;
-}
-.flower img{
-    width: 100%;
-}
+/* shopping */
 
-.flower1{
-    background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0 0;
-    padding: 78px 78px 0 78px;
-    height: 100%;
-    margin-bottom: 32px;
-}
-.flower2{
-    background-color: rgba(5, 151, 160, 0.15);
-    border-radius: 300px 300px 0 0;
-    padding: 78px 78px 0 78px;
-    height: 100%;
-    margin-bottom: 32px;
-}
-.flower3{
-    background-color: rgba(71, 125, 17, 0.15);
-    border-radius: 300px 300px 0 0;
-    padding: 78px 78px 0 78px;
-    height: 100%;
-    margin-bottom: 32px;
-}
-
-
-#delivery-flower{
+#shopping{
     width: 75%;
-    margin: 128px auto;
-    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    height: 450px;
 }
-.flower-item{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    align-items: center;
-    padding: 85px 175px;
-    text-align: center;
+.shopping-form{
+   background-image: url('../images/Rectangle 9.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 100%;
 }
-
-.flower-item p{
-    font-size: 20px;
-    font-weight: 700;
-    color: rgba(39, 39, 39, 0.6);
-    margin-top: 10px;
-}
-
-#signUp{
-    background-color: rgba(229, 84, 115, 0.05);
-}
-.sign-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-}
-
-.sign-text p{
-    font-size: 18px;
-    width: 65%;
-    color: rgba(39, 39, 39, 0.6);
-    margin: 24px 0 32px 0;
-}
-
-.sign-text h2{
+.shopping-form h2{
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.shopping-form p{
+    margin-bottom: 25px;
+}
+.shopping-form  .shopping-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    
+}
+.shopping-item form input{
+    padding: 23px 200px;
+    text-align: start;
+    border-radius: 15px;
+    border: none;
+    margin-right: 12px;
+}
+
+footer{
+    background-color: #111010;
+    color: white;
+    height: 400px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 148px;
 }
