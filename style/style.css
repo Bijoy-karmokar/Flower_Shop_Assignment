@@ -138,3 +138,25 @@ button:hover{
     color: rgba(39, 39, 39, 0.6);
     margin-top: 10px;
 }
+
+#signUp{
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.sign-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-text p{
+    font-size: 18px;
+    width: 65%;
+    color: rgba(39, 39, 39, 0.6);
+    margin: 24px 0 32px 0;
+}
+
+.sign-text h2{
+    font-size: 40px;
+    font-weight: 800;
+}
