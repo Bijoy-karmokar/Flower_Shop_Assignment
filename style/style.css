@@ -239,3 +239,14 @@ footer{
     align-items: center;
     padding: 148px;
 }
+.footer-text .para{
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.footer-text .para1{
+    color: rgba(255, 255, 255, 0.4);
+}
