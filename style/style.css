@@ -85,6 +85,7 @@ button:hover{
 .flower{
     text-align: center;
     height: 335px;
+    margin-bottom: 50px;
    
 }
 .flower p{
@@ -114,4 +115,26 @@ button:hover{
     padding: 78px 78px 0 78px;
     height: 100%;
     margin-bottom: 32px;
+}
+
+
+#delivery-flower{
+    width: 75%;
+    margin: 128px auto;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.flower-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 85px 175px;
+    text-align: center;
+}
+
+.flower-item p{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 10px;
 }
