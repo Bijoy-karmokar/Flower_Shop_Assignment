@@ -70,6 +70,7 @@ button:hover {
   font-size: 18px;
   margin: 20px auto;
   color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 40px;
 }
 
 .flower-parent {
@@ -174,7 +175,10 @@ button:hover {
 .Instagram-text p {
   font-size: 18px;
   color: rgba(39, 39, 39, 0.6);
-  margin: 24px 0 32px 0;
+  width: 55%;
+  
+  margin: 24px 0 32px 250px;
+  
   
 }
 
